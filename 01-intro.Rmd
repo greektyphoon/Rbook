@@ -431,7 +431,7 @@ dataf <- read.table('raw_data/mydata.txt', header = TRUE,
                       sep = '\t')
 ```
 
-Because the file path `raw_data/mydata.txt` is relative to the project directory it doesn't matter where you collaborator saves the project directory on their computer it will still work.
+Because the file path `raw_data/mydata.txt` is relative to the project directory it doesn't matter where your collaborator saves the project directory on their computer it will still work.
 
 If you weren't using an RStudio project then you would have to use either of the options below neither of which would work on a different computer. 
 
